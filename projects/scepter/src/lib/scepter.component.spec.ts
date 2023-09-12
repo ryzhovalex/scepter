@@ -2,11 +2,13 @@ import { ComponentFixture, TestBed } from "@angular/core/testing";
 
 import { ScepterComponent } from "./scepter.component";
 
-describe("ScepterComponent", () => {
+describe("ScepterComponent", () => 
+{
   let component: ScepterComponent;
   let fixture: ComponentFixture<ScepterComponent>;
 
-  beforeEach(async () => {
+  beforeEach(async () => 
+  {
     await TestBed.configureTestingModule({
       declarations: [ScepterComponent]
     }).compileComponents();
@@ -16,7 +18,8 @@ describe("ScepterComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it("should create", () => 
+  {
     expect(component).toBeTruthy();
   });
 });

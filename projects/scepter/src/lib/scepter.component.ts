@@ -2,11 +2,13 @@ import { Component, OnInit } from "@angular/core";
 
 @Component({
   selector: "lib-scepter",
-  template: ` <p>scepter works!</p> `,
+  template: " <p>scepter works!</p> ",
   styles: []
 })
-export class ScepterComponent implements OnInit {
-  ngOnInit(): void {
+export class ScepterComponent implements OnInit
+{
+  public ngOnInit(): void
+  {
     console.debug("hello");
   }
 }

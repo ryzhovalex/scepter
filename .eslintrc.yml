@@ -51,6 +51,7 @@ rules:
     }
   ]
 ignorePatterns:
-  - src/**/*.spec.ts
+  - "polyfills.ts"
+  - "**/*.spec.ts"
   - src/**/*.test.ts
   - src/frontend/generated/*

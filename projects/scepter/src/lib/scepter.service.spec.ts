@@ -2,15 +2,18 @@ import { TestBed } from "@angular/core/testing";
 
 import { ScepterService } from "./scepter.service";
 
-describe("ScepterService", () => {
+describe("ScepterService", () => 
+{
   let service: ScepterService;
 
-  beforeEach(() => {
+  beforeEach(() => 
+  {
     TestBed.configureTestingModule({});
     service = TestBed.inject(ScepterService);
   });
 
-  it("should be created", () => {
+  it("should be created", () => 
+  {
     expect(service).toBeTruthy();
   });
 });
