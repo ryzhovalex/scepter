@@ -8,6 +8,3 @@ test:
 	ng test
 
 check: lint test
-
-dev:
-	ng s --port 3000

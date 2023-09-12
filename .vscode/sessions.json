@@ -15,6 +15,17 @@
                 "icon": "home"
             },
             {
+                "name": "scepter-build",
+                "commands": [
+                    "cd projects/scepter",
+                    "clear",
+                    "ng build --watch"
+                ],
+                "autoExecuteCommands": true,
+                "color": "terminal.ansiRed",
+                "icon": "eye"
+            },
+            {
                 "name": "scepter",
                 "commands": [
                     "cd projects/scepter",
@@ -26,7 +37,8 @@
                 "name": "testground-server",
                 "commands": [
                     "cd projects/testground",
-                    "clear"
+                    "clear",
+                    "make dev"
                 ],
                 "autoExecuteCommands": true,
                 "color": "terminal.ansiRed",

@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: "lib-scepter",
+  selector: "slimebones-scepter",
   template: " <p>scepter works!</p> ",
   styles: []
 })

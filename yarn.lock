@@ -6886,6 +6886,21 @@ sax@^1.2.4, sax@~1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
+scepter@../scepter:
+  version "0.0.0"
+  dependencies:
+    "@angular/animations" "^14.2.0"
+    "@angular/common" "^14.2.0"
+    "@angular/compiler" "^14.2.0"
+    "@angular/core" "^14.2.0"
+    "@angular/forms" "^14.2.0"
+    "@angular/platform-browser" "^14.2.0"
+    "@angular/platform-browser-dynamic" "^14.2.0"
+    "@angular/router" "^14.2.0"
+    rxjs "~7.5.0"
+    tslib "^2.3.0"
+    zone.js "~0.11.4"
+
 schema-utils@^2.6.5:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.7.1.tgz#1ca4f32d1b24c590c203b8e7a50bf0ea4cd394d7"
