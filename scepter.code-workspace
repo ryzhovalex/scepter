@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "root",
+			"path": "."
+		},
+		{
+			"name": "scepter",
+			"path": "projects/scepter"
+		},
+		{
+			"name": "testground",
+			"path": "projects/testground"
+		}
+	]
+}

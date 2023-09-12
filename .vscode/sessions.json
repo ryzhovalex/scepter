@@ -1,0 +1,45 @@
+{
+    "$schema": "https://cdn.statically.io/gh/nguyenngoclongdev/cdn/main/schema/v7/terminal-keeper.json",
+    "theme": "default",
+    "active": "default",
+    "activateOnStartup": false,
+    "keepExistingTerminals": false,
+    "sessions": {
+        "default": [
+            {
+                "name": "root",
+                "commands": [
+                    "clear"
+                ],
+                "autoExecuteCommands": true,
+                "icon": "home"
+            },
+            {
+                "name": "scepter",
+                "commands": [
+                    "cd projects/scepter",
+                    "clear"
+                ],
+                "autoExecuteCommands": true
+            },
+            {
+                "name": "testground-server",
+                "commands": [
+                    "cd projects/testground",
+                    "clear"
+                ],
+                "autoExecuteCommands": true,
+                "color": "terminal.ansiRed",
+                "icon": "server"
+            },
+            {
+                "name": "testground",
+                "commands": [
+                    "cd projects/testground",
+                    "clear"
+                ],
+                "autoExecuteCommands": true
+            }
+        ]
+    }
+}
