@@ -53,7 +53,7 @@
               "projects/testground/src/favicon.ico",
               "projects/testground/src/assets"
             ],
-            "styles": ["projects/testground/src/styles.css"],
+            "styles": ["projects/testground/src/main.css"],
             "scripts": []
           },
           "configurations": {

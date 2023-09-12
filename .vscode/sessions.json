@@ -28,7 +28,7 @@
             {
                 "name": "scepter",
                 "commands": [
-                    "cd projects/scepter",
+                    "cd projects/scepter/src/lib",
                     "clear"
                 ],
                 "autoExecuteCommands": true
@@ -47,7 +47,7 @@
             {
                 "name": "testground",
                 "commands": [
-                    "cd projects/testground",
+                    "cd projects/testgroun/src/app",
                     "clear"
                 ],
                 "autoExecuteCommands": true
