@@ -1,1 +1,3 @@
-# Scepter
+# 🎛️ Scepter
+
+Angular Multifunctional Dashboard.

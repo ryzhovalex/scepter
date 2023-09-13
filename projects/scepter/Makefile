@@ -1,2 +1,8 @@
+build:
+	ng build
+
 build-watch:
-	ng build --watch
+	npm-watch
+
+tailwind.build:
+	npx tailwindcss@latest -c tailwind.config.js -o src/lib/tailwind.css --minify

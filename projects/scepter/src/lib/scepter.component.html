@@ -1,4 +1,25 @@
-<div>
-  <h1 class="underline">Scepter</h1>
-  <router-outlet></router-outlet>
+<div class="flex flex-row bg-scepter-c60">
+  <!-- Dashboard -->
+  <div>
+    <slimebones-scepter-dashboard
+      [title]="content.title"
+      [logoURL]="content.logoURL"
+    />
+  </div>
+  <!--  -->
+
+  <div class="flex flex-col">
+    <!-- Header -->
+    <div>
+      <slimebones-scepter-header
+      />
+    </div>
+    <!--  -->
+
+    <!-- Rendered View -->
+    <div>
+      <router-outlet />
+    </div>
+    <!--  -->
+  </div>
 </div>

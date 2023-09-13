@@ -1,6 +1,14 @@
 {
   "name": "scepter",
   "version": "0.0.1",
+  "watch": {
+    "build": {
+      "extensions": "ts,html,scss,css"
+    }
+  },
+  "scripts": {
+    "build": "make tailwind.build && make build"
+  },
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0"
@@ -8,5 +16,7 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "npm-watch": "^0.11.0"
+  }
 }

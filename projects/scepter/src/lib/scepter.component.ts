@@ -1,15 +1,17 @@
-import { Component, ContentChild, Input, OnChanges, OnInit, SimpleChanges, TemplateRef } from "@angular/core";
-import { ScepterContent, SectionHeader } from "./content";
+import { Component, Input, OnInit, ViewEncapsulation } from "@angular/core";
+import { ScepterContent } from "./content";
 import { ScepterConfig } from "./config";
 
 @Component({
   selector: "slimebones-scepter",
-  templateUrl: "./scepter.component.html"
+  templateUrl: "./scepter.component.html",
+  styleUrls: ["./tailwind.css"],
+  encapsulation: ViewEncapsulation.None
 })
 export class ScepterComponent implements OnInit
 {
   @Input() public content: ScepterContent;
-  @Input() public config: ScepterConfig | null = null;
+  @Input() public config: ScepterConfig | undefined;
 
   public ngOnInit(): void
   {
