@@ -1,5 +1,5 @@
 import { Component, ContentChild, Input, OnChanges, OnInit, SimpleChanges, TemplateRef } from "@angular/core";
-import { SectionHeader } from "./models";
+import { ScepterContent, SectionHeader } from "./content";
 import { ScepterConfig } from "./config";
 
 @Component({
@@ -8,8 +8,8 @@ import { ScepterConfig } from "./config";
 })
 export class ScepterComponent implements OnInit
 {
-  @Input() public headers: SectionHeader[];
-  @Input() public config: ScepterConfig = {};
+  @Input() public content: ScepterContent;
+  @Input() public config: ScepterConfig | null = null;
 
   public ngOnInit(): void
   {

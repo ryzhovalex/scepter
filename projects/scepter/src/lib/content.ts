@@ -1,3 +1,13 @@
+/**
+ * Content injected into Scepter dashboard.
+ */
+export interface ScepterContent
+{
+  title?: string;
+  logoURL?: string;
+  headers: SectionHeader[];
+}
+
 export interface SectionHeader
 {
   title: string;
@@ -10,7 +20,7 @@ export interface SectionHeader
 export interface Section
 {
   title: string;
-  emoji: string;
+  iconURL: string;
 }
 
 /**
@@ -34,13 +44,13 @@ export interface SimpleSection extends Section
 export interface PanelHeader
 {
   title: string;
-  emoji: string;
+  iconURL: string;
   panels: Panel[];
 }
 
 export interface Panel
 {
   title: string;
-  emoji?: string;
+  iconURL?: string;
   route: string;
 }
