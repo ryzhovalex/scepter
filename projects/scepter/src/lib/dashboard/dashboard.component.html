@@ -2,12 +2,14 @@
 
   <!-- Titled Logo -->
   <div class="flex flex-row justify-center">
-    <picture *ngIf="logoURL !== undefined">
-      <img [src]="logoURL" alt="sharp spice logo" class="w-4">
-    </picture>
-    <div *ngIf="title !== undefined">
-      <p>{{title}}</p>
-    </div>
+    <button>
+      <picture *ngIf="logoURL !== undefined">
+        <img [src]="logoURL" alt="sharp spice logo" class="w-4">
+      </picture>
+      <div *ngIf="title !== undefined">
+        <p>{{title}}</p>
+      </div>
+    </button>
   </div>
   <!--  -->
 </div>

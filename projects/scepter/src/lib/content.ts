@@ -5,15 +5,6 @@ export interface ScepterContent
 {
   title?: string;
   logoURL?: string;
-
-  /**
-   * Default view to be rendered automatically.
-   *
-   * Should be present among any section/panel inside given content since it
-   * will be searched to select an appropriate panel.
-   */
-  defaultRoute: string;
-
   headers: SectionHeader[];
 }
 

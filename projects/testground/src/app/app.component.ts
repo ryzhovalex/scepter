@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { ScepterContent } from "scepter";
+import { ScepterConfig, ScepterContent } from "scepter";
 
 @Component({
   selector: "app-root",
@@ -8,13 +8,13 @@ import { ScepterContent } from "scepter";
 export class AppComponent implements OnInit
 {
   public content: ScepterContent;
+  public config: ScepterConfig;
 
   public ngOnInit(): void
   {
     this.content = {
       title: "TestGround",
       logoURL: "assets/logo.png",
-      defaultRoute: "/r1",
       headers: [
         {
           title: "Hello, World!",

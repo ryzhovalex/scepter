@@ -2,12 +2,16 @@
   "name": "scepter",
   "version": "0.0.1",
   "watch": {
-    "build": {
-      "extensions": "ts,html,scss,css"
+    "tailwind-build": {
+      "patterns": [
+        "."
+      ],
+      "extensions": "js,ts,css,scss,html"
     }
   },
   "scripts": {
-    "build": "make tailwind.build && make build"
+    "build": "make build",
+    "tailwind-build": "make tailwind.build"
   },
   "peerDependencies": {
     "@angular/common": "^14.2.0",

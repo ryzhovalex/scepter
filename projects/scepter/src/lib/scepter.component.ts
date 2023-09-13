@@ -15,6 +15,6 @@ export class ScepterComponent implements OnInit
 
   public ngOnInit(): void
   {
-    console.debug("hello");
+    console.debug("hello!");
   }
 }

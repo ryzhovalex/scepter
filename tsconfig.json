@@ -18,7 +18,8 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "scepter": ["dist/scepter"]
+      "scepter": ["projects/scepter/src/lib"],
+      "scepter/*": ["projects/scepter/src/lib/*"]
     },
     "target": "es2022",
     "module": "es2022",
